@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Sprache" Version="2.1.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

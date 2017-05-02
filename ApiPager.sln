@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPager.Core", "ApiPager\ApiPager.Core.csproj", "{55FA4643-5AAE-4723-8511-22CF2F5072D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPager.Core", "ApiPager.Core\ApiPager.Core.csproj", "{55FA4643-5AAE-4723-8511-22CF2F5072D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPager.AspNetCore", "ApiPager.AspNetCore\ApiPager.AspNetCore.csproj", "{F7796C80-7114-422C-9AA2-296450707AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPager.Data.SqlServer", "ApiPager.Data.SqlServer\ApiPager.Data.SqlServer.csproj", "{28403239-CEC6-4894-B4D9-4F59A984E9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPager.Data.Linq", "ApiPager.Data.Linq\ApiPager.Data.Linq.csproj", "{24255C33-08B1-45E3-A92A-6951121A1CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPager.AspNetCore.Swashbuckle", "ApiPager.AspNetCore.Swashbuckle\ApiPager.AspNetCore.Swashbuckle.csproj", "{BCB63303-A722-4AA2-BD0B-65929FEB5D7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{55FA4643-5AAE-4723-8511-22CF2F5072D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55FA4643-5AAE-4723-8511-22CF2F5072D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55FA4643-5AAE-4723-8511-22CF2F5072D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7796C80-7114-422C-9AA2-296450707AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7796C80-7114-422C-9AA2-296450707AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7796C80-7114-422C-9AA2-296450707AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7796C80-7114-422C-9AA2-296450707AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28403239-CEC6-4894-B4D9-4F59A984E9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28403239-CEC6-4894-B4D9-4F59A984E9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28403239-CEC6-4894-B4D9-4F59A984E9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28403239-CEC6-4894-B4D9-4F59A984E9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24255C33-08B1-45E3-A92A-6951121A1CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24255C33-08B1-45E3-A92A-6951121A1CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24255C33-08B1-45E3-A92A-6951121A1CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24255C33-08B1-45E3-A92A-6951121A1CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB63303-A722-4AA2-BD0B-65929FEB5D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB63303-A722-4AA2-BD0B-65929FEB5D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB63303-A722-4AA2-BD0B-65929FEB5D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB63303-A722-4AA2-BD0B-65929FEB5D7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
